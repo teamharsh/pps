@@ -29,7 +29,7 @@ int main()
      }
     else if(x<a[mid])
      end=mid-1;
-    else (x>a[mid]);
+    else
      start=mid+1;
    }
 
