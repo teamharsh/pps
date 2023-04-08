@@ -7,7 +7,7 @@ printf("Enter the number of elements to be in the series : ");
 scanf("%d", &num); 
 for (int i = 0; i < num; i++)
 {
-printf("%d, ", fibonacci(i)); 
+printf("%d   ", fibonacci(i)); 
 }
 return 0;
 }
