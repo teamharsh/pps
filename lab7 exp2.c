@@ -8,7 +8,7 @@ int main()
 long int num, t;
 
 printf("Enter Number:");
-scanf("%d", &num);
+scanf("%ld", &num);
 
 if (num==0)
  printf("Zero");
@@ -74,7 +74,7 @@ txt(num%10);
 }
 }
 
-txt(long num)
+int txt(long num)
 {
         switch(num)
         {
